@@ -1,10 +1,37 @@
 # Localized Responsive Google Play™ Badge
+
 A SVG of the current Google Play™ badge containing all languages.
+
+## Installation
+
+using NPM
+
+```
+npm install localized-responsive-google-play-badge --save
+```
+
+using Bower
+
+```
+bower install localized-responsive-google-play-badge
+```
 
 ## Preview
 
-![Google Play](https://rawgithub.com/XmlmXmlmX/localized-responsive-google-play-badge/master/google-play-badge.svg "Localized Google Play Badge (depending on your System Language).")
+![Google Play](https://rawgithub.com/XmlmXmlmX/localized-responsive-google-play-badge/master/dest/google-play-badge.svg "Localized Google Play Badge (depending on your System Language).")
+![Google Play](https://rawgithub.com/XmlmXmlmX/localized-responsive-google-play-badge/master/dest/google-play-badge.svg?language=en "English Google Play Badge (via query string).")
+![Google Play](https://rawgithub.com/XmlmXmlmX/localized-responsive-google-play-badge/master/dest/google-play-badge.svg?language=de "German Google Play Badge (via query string).")
+![Google Play](https://rawgithub.com/XmlmXmlmX/localized-responsive-google-play-badge/master/dest/google-play-badge.svg?language=ru "Russian Google Play Badge (via query string).")
+![Google Play](https://rawgithub.com/XmlmXmlmX/localized-responsive-google-play-badge/master/dest/google-play-badge.svg?language=af "African Google Play Badge (via query string).")
 
-Source: https://play.google.com/intl/en_us/badges/
+## Supported languages
 
-Google Terms: https://www.google.com/intl/en/policies/terms/
+English, German, African
+
+## Resources
+
+- https://play.google.com/intl/en_us/badges/
+
+## Google Terms
+
+https://www.google.com/intl/en/policies/terms/
