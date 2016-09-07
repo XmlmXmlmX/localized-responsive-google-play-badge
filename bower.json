@@ -1,0 +1,22 @@
+{
+  "name": "localized-responsive-google-play-badge",
+  "description": "A SVG of the current Google Play™ badge containing all languages.",
+  "main": "Gruntfile.js",
+  "authors": [
+    "Sebastian Hösl"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "svg",
+    "google-play",
+    "badge"
+  ],
+  "homepage": "https://github.com/XmlmXmlmX/localized-responsive-google-play-badge",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
