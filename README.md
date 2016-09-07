@@ -24,7 +24,11 @@ bower install localized-responsive-google-play-badge
 
 ## Supported languages
 
-English, German, African, ... (work in progress)
+af, am, az, be, bg, cs, da, de, el, en (work in progress)
+
+### Coming soon
+
+ar, bn, ca, es, es-419, et, eu, fa, fi, fil, fr, fr-ca, gl, gu, hi, hr, hu, hy, id, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, ne, nl, no, pa, pl, pt, pt-br, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tr, ua, ur, uz, vi, zh-cn, zh-hk, zh-tw, zu
 
 ## Resources
 
