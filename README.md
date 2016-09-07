@@ -2,7 +2,7 @@
 
 A SVG of the current Google Play™ badge containing all languages.
 
-NOTE: This project is just at the beginning. Many languages are not supported.
+NOTE: This project is just at the beginning. Many languages are not supported yet.
 
 ## Installation
 
