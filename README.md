@@ -38,11 +38,10 @@ To get a specific language (not the system language) use the query string paramt
 
 ## Supported languages
 
-af, ar, am, az, be, bg, bn, ca, cs, da, de, el, en (work in progress)
+af, ar, am, az, be, bg, bn, ca, cs, da, de, el, en, es, es-419, et, eu, fa, fi, fil, fr, fr-ca, gl, gu, hi, hr, hu, hy, id, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, ne, nl, no (work in progress)
 
 ### Coming soon
-
-es, es-419, et, eu, fa, fi, fil, fr, fr-ca, gl, gu, hi, hr, hu, hy, id, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, ne, nl, no, pa, pl, pt, pt-br, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tr, ua, ur, uz, vi, zh-cn, zh-hk, zh-tw, zu
+pa, pl, pt, pt-br, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tr, ua, ur, uz, vi, zh-cn, zh-hk, zh-tw, zu
 
 ## Resources
 
@@ -51,3 +50,7 @@ es, es-419, et, eu, fa, fi, fil, fr, fr-ca, gl, gu, hi, hr, hu, hy, id, is, it, 
 ## Google Terms
 
 https://www.google.com/intl/en/policies/terms/
+
+## To Dos:
+
+In many languages, styles are different. This must be fixed!
