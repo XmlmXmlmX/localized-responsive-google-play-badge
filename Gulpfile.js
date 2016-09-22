@@ -18,10 +18,7 @@ gulp.task('default', function() {
 
     /*
         remoteSrc(['en_badge_web_generic.eps', 'de_badge_web_generic.eps'], {
-                base: 'https://play.google.com/intl/en_us/badges/images/generic/',
-                requestOptions: {
-                    'proxy': 'http://shsl:s987123H%26@alproxy1.my-tts.net:8080'
-                }
+                base: 'https://play.google.com/intl/en_us/badges/images/generic/'
             })
             .pipe(cloudconvert.convert({
                 inputformat: 'eps',
