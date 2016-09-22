@@ -69,7 +69,7 @@ module.exports = function(grunt) {
                             replacement: '<style type="text/css"><%= grunt.file.read("src/css/main.min.css") %></style>'
                         },
                         {
-                            pattern: '<script xlink:href="main.js" />',
+                            pattern: '<script xlink:href="js/main.js" />',
                             replacement: '<script type="text/javascript"><![CDATA[<%= grunt.file.read("src/js/main.min.js") %>]]></script>'
                         }
                     ]
