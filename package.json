@@ -1,11 +1,12 @@
 {
     "name": "localized-responsive-google-play-badge",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A SVG of the current Google Play™ badge containing all languages.",
     "main": "Gruntfile.js",
     "scripts": {
         "test": "grunt & gulp test",
-        "init": "gulp download-badges"
+        "init": "gulp download-badges",
+        "publish": "npm publish & bower register localized-responsive-google-play-badge https://github.com/XmlmXmlmX/localized-responsive-google-play-badge"
     },
     "repository": {
         "type": "git",
