@@ -1,0 +1,23 @@
+{
+    "name": "localized-responsive-google-play-badge-gh-pages",
+    "version": "1.0.0",
+    "description": "The GitHub Page for Localized Responsive Google Play™ Badge.",
+    "dependencies": {
+        "localized-responsive-google-play-badge": "1.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/XmlmXmlmX/localized-responsive-google-play-badge.git"
+    },
+    "author": "Sebastian Hösl",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/XmlmXmlmX/localized-responsive-google-play-badge/issues"
+    },
+    "homepage": "https://github.com/XmlmXmlmX/localized-responsive-google-play-badge#readme",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-replace": "^0.5.4",
+        "gulp-contrib-copy": "^0.1.2"
+    }
+}
