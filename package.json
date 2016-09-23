@@ -1,41 +1,42 @@
 {
-  "name": "localized-responsive-google-play-badge",
-  "version": "1.0.0",
-  "description": "A SVG of the current Google Play™ badge containing all languages.",
-  "main": "Gruntfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/XmlmXmlmX/localized-responsive-google-play-badge.git"
-  },
-  "keywords": [
-    "svg",
-    "google-play",
-    "badge"
-  ],
-  "author": "Sebastian Hösl",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/XmlmXmlmX/localized-responsive-google-play-badge/issues"
-  },
-  "homepage": "https://github.com/XmlmXmlmX/localized-responsive-google-play-badge#readme",
-  "devDependencies": {
-    "bower": "^1.7.9",
-    "cloudconvert": "^1.1.1",
-    "grunt": "^1.0.1",
-    "grunt-contrib-cssmin": "^1.0.2",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^1.2.1",
-    "grunt-string-replace": "^1.3.0",
-    "grunt-svgmin": "^3.3.0",
-    "gulp": "^3.9.1",
-    "gulp-remote-src": "^0.4.1",
-    "gulp-util": "^3.0.7",
-    "load-grunt-tasks": "^3.5.2",
-    "request": "^2.75.0"
-  }
+    "name": "localized-responsive-google-play-badge",
+    "version": "1.0.0",
+    "description": "A SVG of the current Google Play™ badge containing all languages.",
+    "main": "Gruntfile.js",
+    "scripts": {
+        "test": "grunt & gulp test",
+        "init": "gulp download-badges"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/XmlmXmlmX/localized-responsive-google-play-badge.git"
+    },
+    "keywords": [
+        "svg",
+        "google-play",
+        "badge"
+    ],
+    "author": "Sebastian Hösl",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/XmlmXmlmX/localized-responsive-google-play-badge/issues"
+    },
+    "homepage": "https://github.com/XmlmXmlmX/localized-responsive-google-play-badge#readme",
+    "devDependencies": {
+        "bower": "^1.7.9",
+        "grunt": "^1.0.1",
+        "grunt-contrib-cssmin": "^1.0.2",
+        "grunt-contrib-jshint": "^1.0.0",
+        "grunt-contrib-uglify": "^2.0.0",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-sass": "^1.2.1",
+        "grunt-string-replace": "^1.3.0",
+        "grunt-svgmin": "^3.3.0",
+        "gulp": "^3.9.1",
+        "gulp-remote-src": "^0.4.1",
+        "gulp-util": "^3.0.7",
+        "load-grunt-tasks": "^3.5.2",
+        "panini": "^1.3.0",
+        "request": "^2.75.0"
+    }
 }

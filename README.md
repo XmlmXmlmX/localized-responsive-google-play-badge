@@ -26,15 +26,23 @@ Use the SVG like this:
 <img src="node_modules/localized-responsive-google-play-badge/dist/google-play-badge.svg" />
 ```
 
-To get a specific language (not the system language) use the query string paramter ```language```.
+To get a specific language (not the system language) use the query string paramter `language`. Please note that it is not possible to use the language via query string paramter in `<img>`-Element `src`! This is not supported. You need to use the `<object>`-element. As fallback for browsers who doesn't support the `<object>`-Element, add a nested `<img>`-Element.
 
 ```
-<img src="node_modules/localized-responsive-google-play-badge/dist/google-play-badge.svg?language=af" />
+<object style="width:100%;" type="image/svg+xml" data="node_modules/localized-responsive-google-play-badge/dist/google-play-badge.svg?language=af">
+    <img src="node_modules/localized-responsive-google-play-badge/dist/google-play-badge.svg">
+</object>
 ```
 
 ## Preview
 
+### Auto language (from browser settings):
+
 ![Google Play](https://rawgithub.com/XmlmXmlmX/localized-responsive-google-play-badge/master/dist/google-play-badge.svg "Localized Google Play Badge (depending on your System Language).")
+
+### Language from query string paramter:
+
+[Click here]()
 
 ## Supported languages
 
@@ -42,12 +50,8 @@ af, ar, am, az, be, bg, bn, ca, cs, da, de, el, en, es, es-419, et, eu, fa, fi, 
 
 ## Resources
 
-- https://play.google.com/intl/en_us/badges/
+All badgets are loaded from https://play.google.com/intl/en_us/badges/.
 
 ## Google Terms
 
-https://www.google.com/intl/en/policies/terms/
-
-## To Dos:
-
-In many languages, styles are different. This must be fixed!
+Please note the Google Terms: https://www.google.com/intl/en/policies/terms/.
