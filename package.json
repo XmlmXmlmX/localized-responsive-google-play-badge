@@ -1,6 +1,6 @@
 {
     "name": "localized-responsive-google-play-badge",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A SVG of the current Google Play™ badge containing all languages.",
     "main": "Gruntfile.js",
     "scripts": {
