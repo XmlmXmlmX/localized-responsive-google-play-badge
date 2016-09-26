@@ -42,7 +42,8 @@ To get a specific language (not the system language) use the query string paramt
 
 ### Language from query string paramter:
 
-[Click here]()
+[Click here](http://xmlmxmlmx.github.io/localized-responsive-google-play-badge/all-badges.html)
+(only CHrome, sorry :/)
 
 ## Supported languages
 
