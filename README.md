@@ -1,4 +1,5 @@
 # Localized Responsive Google Play™ Badge (beta)
+[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/XmlmXmlmX/localized-responsive-google-play-badge/blob/master/MIT-LICENSE)
 
 A SVG of the current Google Play™ badge containing all languages.
 
